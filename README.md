@@ -8,13 +8,16 @@ Features
 Dataset: Fuel_cell_performance_data-Full.csv
 Target Selection: Filtered data based on roll numbers ending with 2 or 7.
 Data Split: 70% training and 30% testing.
+Evaluation Metrics:
+ • Mean Squared Error (MSE): 3.548
+ • Mean Absolute Error (MAE): 1.497
+ • R² Score: 0.879
 
 Technologies and Libraries
-Programming Language: Python
+ • Programming Language: Python
 Libraries:
-pandas
-numpy
-matplotlib
-seaborn
-sklearn
-xgboost
+ • pandas for data manipulation
+ • numpy for numerical computations
+ • matplotlib and seaborn for data visualization
+ • sklearn for implementing machine learning models
+ • xgboost for advanced gradient boosting algorithms
